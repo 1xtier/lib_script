@@ -12,7 +12,7 @@ CYAN='\033[36m'   	 # ${CYAN}    ->  # Цвет морской волны
 GRAY='\033[37m'		 # ${GRAY}    ->  # Серый цвет
 
 # Install base software linux
-function rpm_dase(){
+function rpm_base(){
   dnf update -y
   dnf install -y epel-release || dnf update -y
   dnf update -y
