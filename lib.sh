@@ -21,7 +21,7 @@ function rpm_base(){
 
 function deb_base(){
   apt update -y && apt upgrade -y
-  apt install wget mc git vim htop atop traceroute tcpdump nmon atop tree at psmisc ncdu pciutils bind-utils cpan
+  apt install wget mc git vim htop atop traceroute tcpdump nmon atop tree at psmisc ncdu pciutils bind-utils cpan -y
 }
 
 # 
